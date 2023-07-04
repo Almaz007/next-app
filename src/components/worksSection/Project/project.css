@@ -1,0 +1,38 @@
+.project{
+    position: relative;
+}
+.project__body{
+    display: flex;
+}
+.project:nth-child(2n) > .project__body{
+    flex-direction: row-reverse;
+}
+.project__item {
+    width: 100%;
+}
+.project__title{
+    position: absolute;
+    width: 100%;
+    
+    top:50%;
+    transform: translateY(-50%);
+    left:0px;
+}
+.title{
+    width: max-content;
+    margin: 0 auto;
+    line-height: 84px;
+    letter-spacing: -1.2px;
+    font-size: 80px;
+    text-transform: uppercase;
+
+    background: linear-gradient(45deg, #ffffff 30%, #EF843D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ .project:nth-child(2n)  .title{
+    /* background:none; */
+    background: linear-gradient(45deg, #EF843D 30%, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

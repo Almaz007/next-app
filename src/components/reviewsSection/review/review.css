@@ -1,0 +1,62 @@
+.review{
+    display:flex;
+    column-gap: 24px;
+
+    position: relative;
+    margin-bottom: 537px;
+    padding-bottom: 52px;
+    border-bottom: 2px solid #fff;
+}
+.border{
+    position: absolute;
+}
+.review:last-child{
+    margin-bottom: 0px;
+}
+.person__logo{
+    width: 83px;
+    height: 83px;
+}
+.padding__right{
+    padding-right: 107px;
+}
+.padding__left{
+    padding-left: 107px;
+}
+.person{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.person__left{
+    justify-content: end;
+}
+.person__data{
+    display: flex;
+    flex-direction: column;
+    row-gap:8px;
+}
+.person__left .person__data {
+    align-items: end;
+}
+.person__name{
+    color:#fff;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.96px;
+}
+.preson__title{
+    color: #FD9D9D;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+}
+
+.review__text{
+    color: #FFF;
+    text-align: justify;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1.28px;
+}

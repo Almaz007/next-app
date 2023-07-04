@@ -1,0 +1,18 @@
+@media(max-width: 1440px) {
+    .services__title{
+        margin-left: 139px;
+    }  
+}
+@media(max-width: 1024px) {
+    .services__title{
+        margin-left: 56px;
+    }
+    
+}
+@media(max-width: 768px) {
+    .services__title{
+        margin-left: 140px;
+        font-size: 20px;
+        letter-spacing: -0.8px;
+    }
+}

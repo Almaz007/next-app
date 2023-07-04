@@ -1,0 +1,112 @@
+@media(max-width: 1440px) {
+    .contact {
+        padding-top: 152px;
+        padding-bottom: 74px;
+    }
+    .contact__block__top{
+        padding-right: 5.69vw;
+    }
+    .top__text{
+        font-size:13.89vw;
+        line-height: 13.89vw;
+        letter-spacing: -0.56vw;
+    }
+    .top__time{
+        font-size: 2.22vw;
+        line-height: 2.50vw;
+    }
+    .contact__block__bottom{
+        column-gap: 85px;
+    }
+    .syHiBtn{
+        max-width: 280px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .contact {
+        padding-top: 92px;
+        padding-bottom: 42px;
+    }
+    .contact__block__top{
+        padding-right: 4.39vw;
+        padding-bottom: 32px;
+    }
+    .top__text{
+        font-size:13.67vw;
+        line-height: 13.67vw;
+        letter-spacing: -0.55vw;
+    }
+    .top__time{
+        padding-bottom: 23px;
+    
+        font-size: 2.34vw;
+        line-height: 2.73vw;
+        letter-spacing: -0.96px;
+    }
+    .contact__block__bottom{
+        padding-top: 32px;
+        column-gap: 25px;
+    }
+    .syHiBtn{
+        max-width: 300px;
+    }
+}
+@media(max-width: 768px) {
+    .contact {
+        padding-top: 112px;
+        padding-bottom: 92px;
+    }
+    .contact__block__top{
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        align-items: start;
+        padding-right: 0px;
+        padding-bottom: 24px;
+    }
+    .top__text{
+        font-size:16.67vw;
+        line-height: 17.19vw;
+        letter-spacing: -0.68vw;
+    }
+    .top__time{
+        padding-bottom: 0px;
+        padding-left: 54.69vw;
+        font-size: 3.13vw;
+        line-height: 3.65vw;
+    }
+
+    .contact__block__bottom{
+        flex-direction: column;
+        column-gap: 0px;
+        row-gap: 80px;
+    }
+    .syHiBtn{
+        max-width: 100%;
+    }
+}
+@media(max-width: 430px) {
+    .contact {
+        padding-top: 88px;
+        padding-bottom: 40px;
+    }
+    .contact__block__top{
+        row-gap: 20px;
+        padding-bottom: 20px;
+    }
+    .top__text{
+        font-size:16.74vw;
+        line-height: 17.67vw;
+        letter-spacing: -2.88px;
+    }
+    .top__time{
+        padding-left: 200px;
+        font-size: 5.58vw;
+        line-height: 6.51vw;
+    }
+    .contact__block__bottom{
+        padding-top: 20px;
+        row-gap: 40px;
+    }
+}

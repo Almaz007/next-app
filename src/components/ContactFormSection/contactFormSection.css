@@ -1,0 +1,71 @@
+.contact{
+    padding-top: 180px;
+    padding-bottom: 102px;
+}
+
+.contact__block__top{
+    display: flex;
+    align-items: end;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-right: 9.22vw;
+
+    padding-bottom: 40px;
+    border-bottom: 2px solid #E4E4E4;
+}
+.top__text{
+    color: #000;
+    font-size: 200px;
+    font-family: var(--font-title);
+    line-height: 200px;
+    letter-spacing: -8px;
+}
+
+
+.contact__block__bottom{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 280px;
+}
+
+.syHiBtn{
+    display: flex;
+    column-gap: 16px;
+    justify-content: center;
+    cursor: pointer;
+
+    max-width: 19.58vw;
+    width: 100%;
+    padding: 32px;
+
+    border: 2px solid #F6F6F6;
+    border-radius: 8px;
+    color: #000;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1.28px;
+    max-height: 100px;
+
+    transition: 0.2s ease-in-out;
+}
+.syHiBtn:hover{
+    background-color: #d7d7d7;
+}
+
+/* Timer */
+
+.top__time{
+    display: flex;
+    column-gap: 8px;
+    padding-bottom: 34px;
+ 
+    color: #000;
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 1.88vw;
+    letter-spacing: -1.28px;
+}
+.top__time .gmt{
+    color: #E4E4E4;
+}

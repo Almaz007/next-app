@@ -1,0 +1,32 @@
+.navigation__block{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top:32px;
+    padding: 0px 20px;
+}
+
+
+.navigation__row {
+    font-family: 'inter', sans-serif;
+    max-width: 1880px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation__logo{
+    width: 260px;
+    height: 72px;
+    background-color: #ffffff;
+}
+.navigation{
+    display: flex;
+    column-gap: 100px;
+}
+.navigation a{
+    color:#ffffff;
+    font-size: 16px;
+}
+.nav-button{
+    display: none;
+}
