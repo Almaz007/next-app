@@ -22,7 +22,7 @@ export default function About() {
                         <p>Our services</p>
                         <img 
                             className={style.btn__info_pic}
-                            src='./arrow_Up_Right.svg'
+                            src='./img/arrow_Up_Right.svg'
                             alt="services"
                             width={28}
                             height={28}
